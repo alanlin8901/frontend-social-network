@@ -1,0 +1,32 @@
+.login-popin{
+  background: deepskyblue;
+  text-align: right;
+  box-shadow: 5px 10px #888888;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 450px;
+}
+.login-popin .tabs{
+  width: 100%;
+  display: flex;
+  margin: 0;
+}
+.login-popin .login-tab{
+  background: #23469c;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+.login-popin .login-tab .selected{
+  background: #23469c;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+.login-popin .login-tab:hover{
+  background: #07287c;
+  cursor: pointer;
+}
